@@ -1,5 +1,6 @@
 #!/bin/bash
-echo "Welcome to Email Pattern"
+
+echo "Welcome to Email Pattern:"
 
 read -p "Enter the Email:" email
 
