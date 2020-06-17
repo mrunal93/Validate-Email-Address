@@ -4,7 +4,7 @@ echo "Welcome to Email Pattern:"
 
 read -p "Enter the Email:" Email
 
-emailpat="^[a-z]{3}[.][a-z]{3}+[@][bidgelabz]+[.][a-z]{2}[.][a-z]{2}$"
+emailpat="^([a-zA-Z]{3,}([.|_|+|-]?[a-zA-Z0-9]+)?[@][a-zA-Z0-9]+[.][a-zA-Z]{2,3}([.]?[a-zA-Z]{2,3})?)$"
 
 if [[ $Email =~ $eamilpat ]]
 then
